@@ -59,7 +59,7 @@ LDFLAGS="-Wl,-rpath-link,/usr/lib:/lib" \
 ../binutils-&binutils-dir;/configure \
     --prefix=/usr \
     --enable-shared \
-    --enable-gold=yes \
+    --enable-gold=no \
     --enable-plugins \
     --with-system-zlib \
     --enable-threads</userinput></screen>
