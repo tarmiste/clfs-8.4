@@ -12,9 +12,10 @@
   <title>If You Are Going to Boot</title>
 
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="common/introduction.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="common/bc.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="common/boot-scripts.xml"/>
+<!-- e2fsprogs-libs probably not needed
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ppc64/e2fsprogs-libs.xml"/>
+-->
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ppc64/e2fsprogs.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="multilib/kmod.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="common/shadow.xml"/>
@@ -24,6 +25,8 @@
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ppc/hfsutils.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ppc64/powerpc-utils.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ppc64/yaboot-build.xml"/>
+<!--
+-->
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="multilib/creatingdirs.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="multilib/createfiles.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="common/devices.xml"/>

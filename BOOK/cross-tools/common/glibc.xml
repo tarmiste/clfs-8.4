@@ -138,11 +138,11 @@ RANLIB="${CLFS_TARGET}-ranlib" \
 
     <para os="dk">Compile the package:</para>
 
-<screen os="dl"><userinput>make</userinput></screen>
+<screen os="dl"><userinput>make CXX= </userinput></screen>
 
     <para os="dm">Install the package:</para>
 
-<screen os="dn"><userinput>make install</userinput></screen>
+<screen os="dn"><userinput>make CXX= install</userinput></screen>
 
   </sect2>
 
