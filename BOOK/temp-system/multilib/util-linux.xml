@@ -33,7 +33,10 @@
     --libdir='${prefix}'/lib64 \
     --disable-makeinstall-chown \
     --disable-makeinstall-setuid \
+    --without-systemdsystemunitdir \
+    --without-ncurses \
     --disable-nologin \
+    PKG_CONFIG=""  \
     --without-python</userinput></screen>
 
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
