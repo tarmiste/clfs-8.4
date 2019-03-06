@@ -16,6 +16,9 @@
 export BUILD32="${BUILD32}"
 export BUILD64="${BUILD64}"
 export CLFS_TARGET32="${CLFS_TARGET32}"
+export BUILD32=\""${BUILD32}\""
+export BUILD64=\""${BUILD64}\""
+export CLFS_TARGET32=\""${CLFS_TARGET32}\""
 # Setting the PKG_CONFIG_* values is done here to assist with jhalfs builds
 export BUILD32="-m32"
 export BUILD64="-m64"
