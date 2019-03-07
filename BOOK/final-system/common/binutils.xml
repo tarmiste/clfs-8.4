@@ -59,7 +59,7 @@ LDFLAGS="-Wl,-rpath-link,/usr/lib:/lib" \
 ../binutils-&binutils-dir;/configure \
     --prefix=/usr \
     --enable-shared \
-    --enable-gold=no \
+    --enable-gold=yes \
     --enable-plugins \
     --enable-64-bit-bfd \
     --with-system-zlib \

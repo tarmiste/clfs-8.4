@@ -51,7 +51,7 @@ unset LINKER</userinput></screen>
     href="glibc.xml"
     xpointer="xpointer(//*[@os='g'])"/>
 
-<screen os="h"><userinput>CC="gcc ${BUILD64}" CXX="g++ ${BUILD64}" \
+<screen os="h"><userinput>CC="gcc ${BUILD64}" "g++ ${BUILD64}" \
 ../glibc-&glibc-version;/configure \
     --prefix=/usr \
     --enable-kernel=&glibc-kernel-version; \
