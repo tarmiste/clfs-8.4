@@ -26,6 +26,10 @@
 
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
     href="../ppc/patches.xml"
+    xpointer="xpointer(//*[@os='parted-devmapper-patch'])"/>
+
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+    href="../ppc/patches.xml"
     xpointer="xpointer(//*[@os='powerpcutils-fixes-patch'])"/>
 
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"

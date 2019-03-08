@@ -26,7 +26,7 @@
     </varlistentry>
 
     <varlistentry os="parted-devmapper-patch">
-      <term>HFS Utils Fixes Patch - <token>&parted-devmapper-patch-size;</token>:</term>
+      <term>Parted Without Devmapper Patch - <token>&parted-devmapper-patch-size;</token>:</term>
       <listitem>
         <para>Download: <ulink
         url="&patches-root;&parted-devmapper-patch;"/></para>
